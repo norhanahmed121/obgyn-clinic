@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>د. أحمد سامي | استشاري أمراض النساء والتوليد</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFF8F5;--card:#fff;--ink:#2A1630;--mute:#6B5870;--line:#EBDDE2;--soft:#F3E8F5;--peach:#FFE6DA;--acc:#C2456B;--deep:#2A1630;--star:#E8A317;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1A0E1F;--card:#2A1830;--ink:#F6EAF3;--mute:#B9A3BF;--line:#432B4A;--soft:#2F1D37;--peach:#3A2430;--acc:#F08BAA;--deep:#120916}}
+:root[data-theme="dark"]{--bg:#1A0E1F;--card:#2A1830;--ink:#F6EAF3;--mute:#B9A3BF;--line:#432B4A;--soft:#2F1D37;--peach:#3A2430;--acc:#F08BAA}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.85 "IBM Plex Sans Arabic",Tahoma,sans-serif}
+h1,h2,h3{font-family:Amiri,"IBM Plex Sans Arabic",serif;line-height:1.3;margin:0}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.w{max-width:1120px;margin:auto;padding:0 22px}
+section{padding:84px 0}
+h2{font-size:clamp(32px,5vw,50px);margin-bottom:8px}
+.sub{color:var(--mute);margin:0 0 38px;font-size:18px}
+.btn{display:inline-block;background:var(--acc);color:#fff;border:0;border-radius:999px;padding:14px 32px;font:600 18px "IBM Plex Sans Arabic",Tahoma,sans-serif;cursor:pointer;transition:transform .2s}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn{color:#2A1630}}
+:root[data-theme="dark"] .btn{color:#2A1630}
+.btn:hover{transform:translateY(-2px)}
+.btn.o{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:66px}
+.logo{font:700 24px Amiri,serif}
+nav{display:flex;gap:24px;font-size:15px;color:var(--mute)}
+@media(max-width:720px){nav{display:none}}
+header .btn{padding:8px 20px;font-size:15px}
+/* hero */
+.hero{padding:48px 0 70px;position:relative;overflow:hidden}
+.hero .w{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+@media(max-width:820px){.hero .w{grid-template-columns:1fr}.ph{order:-1}}
+.chip{display:inline-block;background:var(--soft);border-radius:999px;padding:4px 16px;font-size:15px;margin-bottom:18px}
+.hero h1{font-size:clamp(44px,8vw,86px)}
+.hero h1 em{display:block;font-style:normal;color:var(--acc)}
+.spec{font-size:19px;font-weight:600;margin:16px 0 8px}
+.hero p{color:var(--mute);max-width:50ch;margin:0 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.ph{position:relative;max-width:400px;width:100%;margin:auto}
+.ph:before{content:"";position:absolute;inset:-18px -18px 18px 18px;border-radius:999px 999px 40px 40px;background:var(--peach)}
+.ph:after{content:"";position:absolute;width:150px;height:150px;border-radius:50%;background:var(--soft);right:-40px;bottom:-30px}
+.arch{position:relative;z-index:1;aspect-ratio:4/5;border-radius:999px 999px 36px 36px;background:linear-gradient(170deg,var(--soft),var(--peach));overflow:hidden;cursor:pointer;display:block;border:0;width:100%;padding:0;color:var(--mute);font:inherit}
+.arch img{width:100%;height:100%;object-fit:cover;display:none}
+.arch svg{width:100%;height:100%}
+.arch small{position:absolute;bottom:20px;inset-inline:0;text-align:center;font-size:14px}
+.fl{position:absolute;z-index:2;background:var(--card);border-radius:18px;padding:10px 16px;box-shadow:0 12px 30px rgba(42,22,48,.18);font-size:14px;line-height:1.5}
+.fl b{display:block;font-size:20px;color:var(--acc)}
+.f1{top:48px;inset-inline-start:-26px}.f2{bottom:60px;inset-inline-end:-22px}
+@media(max-width:520px){.f1{inset-inline-start:-6px}.f2{inset-inline-end:-6px}}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);background:var(--card);border-radius:24px;box-shadow:0 18px 50px rgba(42,22,48,.12);max-width:900px;margin:0 auto;position:relative}
+.facts div{padding:22px 8px;text-align:center;border-inline-start:1px solid var(--line)}
+.facts div:first-child{border:0}
+.facts b{display:block;font:700 clamp(32px,5vw,48px) Amiri,serif;color:var(--acc);line-height:1.2}
+.facts span{font-size:14px;color:var(--mute)}
+/* about */
+.about{background:var(--soft)}
+.about .w{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+@media(max-width:820px){.about .w{grid-template-columns:1fr}}
+.about ul{list-style:none;margin:0;padding:0}
+.about li{padding:16px 22px;margin-bottom:10px;background:var(--card);border-radius:18px;font-weight:600}
+.about li small{display:block;color:var(--mute);font-size:14px;font-weight:400}
+/* services */
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.svc div{background:var(--card);border:1px solid var(--line);border-radius:30px 30px 30px 8px;padding:28px;transition:transform .25s}
+.svc div:hover{transform:translateY(-4px)}
+.svc div:nth-child(2n){background:var(--peach);border-color:transparent}
+.svc svg{width:54px;height:54px;padding:12px;border-radius:50%;background:var(--acc);stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.svc h3{font-size:25px;margin:14px 0 6px}
+.svc p{margin:0;color:var(--mute);font-size:16px;line-height:1.7}
+/* journey */
+.jr{background:var(--deep);color:#fff}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .jr{background:#120916}}
+:root[data-theme="dark"] .jr{background:#120916}
+.jr .sub{color:#fff;opacity:.7}
+.st3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;position:relative}
+@media(max-width:720px){.st3{grid-template-columns:1fr}}
+.st3 div{background:rgba(255,255,255,.07);border-radius:28px;padding:26px}
+.st3 b{font:700 56px Amiri,serif;color:#F08BAA;line-height:1}
+.st3 h3{font-size:24px;margin:6px 0}
+.st3 p{margin:0;opacity:.75;font-size:16px;line-height:1.7}
+/* booking */
+.bk{display:grid;grid-template-columns:1fr 1fr;gap:20px;background:var(--card);border:1px solid var(--line);border-radius:32px;padding:32px;box-shadow:0 20px 50px rgba(42,22,48,.12)}
+@media(max-width:720px){.bk{grid-template-columns:1fr;padding:22px}}
+label{display:block;font-weight:600;font-size:15px;margin-bottom:6px}
+input,select{width:100%;padding:13px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:inherit}
+.f{margin-bottom:16px}
+.slots{display:flex;flex-wrap:wrap;gap:8px}
+.slots button{padding:9px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-size:15px;cursor:pointer}
+.slots button[aria-pressed="true"]{background:var(--acc);color:#fff;border-color:var(--acc)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .slots button[aria-pressed="true"]{color:#2A1630}}
+.slots button:disabled{opacity:.4;text-decoration:line-through;cursor:not-allowed}
+.full{grid-column:1/-1}
+#ok{display:none;grid-column:1/-1;background:var(--soft);border-radius:18px;padding:20px;text-align:center}
+#err{color:#C0392B;font-size:14px;min-height:20px;margin:0}
+.bk .btn{width:100%}
+/* visit */
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:820px){.visit{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:30px;padding:28px}
+.hrs{width:100%;border-collapse:collapse}
+.hrs td{padding:10px 0;border-bottom:1px solid var(--line)}
+.hrs td:last-child{text-align:left;color:var(--mute)}
+.hrs tr.t td{color:var(--acc);font-weight:700}
+.map{height:200px;border-radius:20px;background:var(--soft);overflow:hidden;margin-bottom:16px}
+.map svg{width:100%;height:100%}
+/* reviews */
+#reviews{background:var(--soft)}
+.rv{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}
+.rv figure{margin:0;background:var(--card);border-radius:30px 30px 8px 30px;padding:26px}
+.st{color:var(--star);letter-spacing:2px}
+.rv blockquote{margin:8px 0 14px;font-size:18px}
+.rv figcaption{color:var(--mute);font-size:14px}
+.score{display:flex;align-items:center;gap:16px;margin-bottom:28px}
+.score b{font:700 64px Amiri,serif;color:var(--acc);line-height:1}
+footer{padding:28px 0 90px;color:var(--mute);font-size:14px;text-align:center}
+.wa{position:fixed;inset-inline-start:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:6;background:#25D366;color:#06301A;font-weight:700;padding:12px 20px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.svc div{transition:none}}
+</style>
+</head>
+<body>
+<header><div class="w"><a class="logo" href="#top">د. أحمد سامي</a>
+<nav><a href="#about">عن الدكتور</a><a href="#services">الخدمات</a><a href="#book">الحجز</a><a href="#visit">العيادة</a><a href="#reviews">آراء المريضات</a></nav>
+<a class="btn" href="#book">احجزي كشف</a></div></header>
+
+<main id="top">
+<section class="hero"><div class="w">
+<div>
+<span class="chip">عيادة النساء والتوليد • المعادي</span>
+<h1>رعاية بتفهمك<em>في كل مرحلة</em></h1>
+<div class="spec">د. أحمد سامي — استشاري أمراض النساء والتوليد وتأخر الإنجاب</div>
+<p>أكتر من ١٥ سنة خبرة في متابعة الحمل والولادة والعلاج. كشف في هدوء، وشرح واضح، وخطة تناسب حالتك.</p>
+<div class="cta"><a class="btn" href="#book">احجزي موعدك أونلاين</a><a class="btn o" href="https://wa.me/201000000000">كلمينا واتساب</a></div>
+</div>
+<div class="ph">
+<label class="arch" tabindex="0" style="margin:0;font-weight:400"><input type="file" id="pf" accept="image/*" hidden>
+<img id="pi" alt="صورة الدكتور">
+<svg id="ps" viewBox="0 0 200 250"><circle cx="100" cy="95" r="36" fill="var(--acc)" opacity=".3"/><path d="M28 250c0-60 36-88 72-88s72 28 72 88z" fill="var(--acc)" opacity=".4"/></svg>
+<small id="pt">مكان صورة الدكتور • دوسي لتجربة صورتك</small></label>
+<div class="fl f1"><b>٤٫٩ ★</b>تقييم المريضات</div>
+<div class="fl f2"><b>٥٠٠٠+</b>ولادة ناجحة</div>
+</div>
+</div></section>
+<div class="w"><div class="facts"><div><b>١٥+</b><span>سنة خبرة</span></div><div><b>٥٠٠٠+</b><span>ولادة</span></div><div><b>٩٨٪</b><span>رضا المريضات</span></div></div></div>
+
+<section class="about" id="about" style="margin-top:80px"><div class="w">
+<div><h2>عن الدكتور</h2><p class="sub">خبرة طويلة، وإنسانية في التعامل.</p>
+<p>اتخرج د. أحمد في طب القصر العيني، وأكمل تدريبه في مستشفيات جامعية كبرى، وبعدها تخصص في الحمل عالي الخطورة وعلاج تأخر الإنجاب. بيؤمن إن كل ست ليها قصة ومحتاجة تتسمع قبل ما تتعالج.</p></div>
+<ul>
+<li>بكالوريوس الطب والجراحة<small>جامعة القاهرة</small></li>
+<li>ماجستير ودكتوراه النساء والتوليد<small>جامعة عين شمس</small></li>
+<li>زمالة الحقن المجهري وأطفال الأنابيب<small>معتمدة</small></li>
+<li>عضو الجمعية المصرية للنساء والتوليد<small>رقم القيد ٠٠٠٠٠ (مثال)</small></li>
+</ul></div></section>
+
+<section id="services"><div class="w"><h2>الخدمات</h2><p class="sub">من أول فحص لحد يوم الولادة وما بعدها.</p>
+<div class="svc">
+<div><svg viewBox="0 0 32 32"><path d="M16 27C6 20 4 14 4 10a6 6 0 0 1 12-1 6 6 0 0 1 12 1c0 4-2 10-12 17z"/></svg><h3>متابعة الحمل</h3><p>زيارات دورية وتحاليل وتطعيمات وإرشاد غذائي لحد الولادة.</p></div>
+<div><svg viewBox="0 0 32 32"><circle cx="16" cy="9" r="4"/><path d="M8 28c0-8 3-12 8-12s8 4 8 12"/></svg><h3>ولادة طبيعية وقيصرية</h3><p>خطة ولادة تناسبك وبأعلى معايير الأمان في مستشفى مجهز.</p></div>
+<div><svg viewBox="0 0 32 32"><rect x="4" y="6" width="24" height="18" rx="4"/><path d="M10 28h12M12 15l3 3 5-6"/></svg><h3>سونار 3D / 4D</h3><p>صور واضحة للجنين وفحوصات تفصيلية لسلامته.</p></div>
+<div><svg viewBox="0 0 32 32"><circle cx="11" cy="16" r="6"/><circle cx="22" cy="16" r="4"/><path d="M27 10l2-2"/></svg><h3>تأخر الإنجاب</h3><p>تشخيص دقيق وتحفيز للتبويض وحقن مجهري عند الحاجة.</p></div>
+<div><svg viewBox="0 0 32 32"><path d="M6 26L26 6M20 6h6v6"/><circle cx="10" cy="22" r="3"/></svg><h3>مناظير وجراحات</h3><p>مناظير تشخيصية وجراحية لعلاج الأورام الليفية والأكياس.</p></div>
+<div><svg viewBox="0 0 32 32"><path d="M16 4v24M4 16h24"/></svg><h3>كشف نسائي شامل</h3><p>مسحة عنق الرحم، علاج الالتهابات، واضطرابات الدورة.</p></div>
+</div></div></section>
+
+<section class="jr"><div class="w"><h2>رحلة الحمل معاكي</h2><p class="sub">في كل تلات شهور، متابعة مختلفة.</p>
+<div class="st3">
+<div><b>١</b><h3>الشهور ١–٣</h3><p>تأكيد الحمل، أول سونار، تحاليل أساسية، وفحص الشفافية خلف رقبة الجنين.</p></div>
+<div><b>٢</b><h3>الشهور ٤–٦</h3><p>سونار تفصيلي لقلب الجنين وتكوينه، ومتابعة النمو وسكر الحمل.</p></div>
+<div><b>٣</b><h3>الشهور ٧–٩</h3><p>متابعة الوضع والنمو، والتحضير ليوم الولادة وخطة الولادة.</p></div>
+</div></div></section>
+
+<section id="book"><div class="w"><h2>احجزي موعدك أونلاين</h2><p class="sub">اختاري اليوم والميعاد، وهنكلمك نأكد.</p>
+<div class="bk">
+<div><div class="f"><label for="n">الاسم</label><input id="n" autocomplete="name"></div>
+<div class="f"><label for="p">رقم الموبايل</label><input id="p" type="tel" inputmode="tel" autocomplete="tel" placeholder="01xxxxxxxxx"></div>
+<div class="f"><label for="s">سبب الزيارة</label><select id="s"><option>كشف جديد</option><option>متابعة حمل</option><option>سونار</option><option>استشارة تأخر إنجاب</option><option>كشف نسائي</option><option>إعادة كشف</option></select></div></div>
+<div><div class="f"><label for="d">اليوم</label><input id="d" type="date"></div>
+<div class="f"><label>الميعاد المتاح</label><div class="slots" id="sl"></div></div></div>
+<p id="err" class="full" role="alert"></p>
+<div class="full"><button class="btn" id="go" type="button">تأكيد الحجز</button></div>
+<div id="ok" role="status"></div>
+</div></div></section>
+
+<section id="visit" style="padding-top:0"><div class="w"><h2>العيادة</h2><p class="sub">مواعيد العمل والعنوان.</p>
+<div class="visit">
+<div class="card"><h3 style="margin-bottom:10px">مواعيد العمل</h3><table class="hrs" id="hrs"></table></div>
+<div class="card"><div class="map" role="img" aria-label="خريطة تقريبية"><svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice"><path d="M0 120h300M0 60h300M90 0v200M200 0v200" stroke="var(--line)" stroke-width="10" fill="none"/><path d="M0 160L300 40" stroke="var(--line)" stroke-width="6"/><path d="M150 62c-10 0-17 7-17 16 0 12 17 30 17 30s17-18 17-30c0-9-7-16-17-16z" fill="var(--acc)"/><circle cx="150" cy="78" r="6" fill="var(--card)"/></svg></div>
+<h3>عيادة د. أحمد سامي</h3>
+<p style="margin:6px 0">٨ شارع ٩، الدور الثاني، شقة ٢٠<br>المعادي، القاهرة (عنوان تجريبي)</p>
+<p style="margin:6px 0;color:var(--mute)">قدام محطة مترو المعادي، جنب مستشفى السلام. جراج متاح.</p>
+<a class="btn o" href="https://maps.google.com/?q=Maadi+Cairo" style="margin-top:8px">افتحي الخريطة</a></div>
+</div></div></section>
+
+<section id="reviews"><div class="w"><h2>آراء المريضات</h2>
+<div class="score"><b>٤٫٩</b><div><span class="st">★★★★★</span><br><span style="color:var(--mute);font-size:14px">من ٤١٠ تقييم</span></div></div>
+<div class="rv">
+<figure><span class="st">★★★★★</span><blockquote>كنت متوترة جداً من الولادة، والدكتور طمني وشرحلي كل حاجة. تجربة مريحة جداً.</blockquote><figcaption>نورهان ع. • متابعة حمل وولادة</figcaption></figure>
+<figure><span class="st">★★★★★</span><blockquote>بعد سنين من المحاولة ربنا كرمني بعد العلاج عنده. ربنا يبارك فيه.</blockquote><figcaption>ريم ك. • تأخر إنجاب</figcaption></figure>
+<figure><span class="st">★★★★★</span><blockquote>بيسمع للمريضة كويس ووقته كله ليها، والعيادة نضيفة والمواعيد مظبوطة.</blockquote><figcaption>دعاء م. • كشف نسائي</figcaption></figure>
+</div></div></section>
+</main>
+<footer><div class="w">© د. أحمد سامي • الموقع ده نسخة تجريبية</div></footer>
+<a class="wa" href="https://wa.me/201000000000">واتساب</a>
+
+<script>
+const $=id=>document.getElementById(id);
+$("pf").onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{$("pi").src=r.result;$("pi").style.display="block";$("ps").style.display="none";$("pt").style.display="none"};r.readAsDataURL(f)};
+const days=["الأحد","الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت"];
+const hrs=["٤ م – ١٠ م","٤ م – ١٠ م","٤ م – ١٠ م","٤ م – ١٠ م","٤ م – ١٠ م","مغلق","٢ م – ٨ م"];
+const today=new Date().getDay();
+$("hrs").innerHTML=days.map((d,i)=>`<tr class="${i==today?'t':''}"><td>${d}</td><td>${hrs[i]}</td></tr>`).join("");
+const times=["٤:٠٠ م","٥:٠٠ م","٦:٠٠ م","٧:٠٠ م","٨:٠٠ م","٩:٠٠ م"];
+let pick=null;
+function slots(){const taken=[1,3];pick=null;$("sl").innerHTML=times.map((t,i)=>`<button type="button" aria-pressed="false" ${(taken.includes(i)&&$("d").value.slice(-1)%2)?'disabled':''}>${t}</button>`).join("");
+[...$("sl").children].forEach(b=>b.onclick=()=>{[...$("sl").children].forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");pick=b.textContent})}
+const t=new Date();if(t.getDay()==5)t.setDate(t.getDate()+1);
+$("d").min=$("d").value=t.toISOString().slice(0,10);slots();$("d").onchange=slots;
+$("go").onclick=()=>{
+ const n=$("n").value.trim(),p=$("p").value.trim(),d=$("d").value;
+ if(!n)return $("err").textContent="اكتبي اسمك من فضلك.";
+ if(!/^01\d{9}$/.test(p.replace(/\s/g,"")))return $("err").textContent="رقم الموبايل لازم يبدأ بـ 01 وفيه ١١ رقم.";
+ if(!d||new Date(d).getDay()==5)return $("err").textContent="اختاري يوم تاني، العيادة مقفولة الجمعة.";
+ if(!pick)return $("err").textContent="اختاري الميعاد المناسب.";
+ $("err").textContent="";$("ok").style.display="block";
+ $("ok").innerHTML=`<b>تم تسجيل طلب الحجز ✓</b><br>${n}، موعدك ${new Date(d).toLocaleDateString("ar-EG",{weekday:"long",day:"numeric",month:"long"})} الساعة ${pick} (${$("s").value}).<br>هنتصل بيكي على ${p} لتأكيد الحجز.`;
+};
+</script>
+</body>
+</html>
